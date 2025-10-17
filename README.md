@@ -57,29 +57,26 @@ This project allows users to **browse, create, edit, view, and delete products**
 
 ## ⚙️ Getting Started
 
-### 1 Clone the repository
-```bash
-git clone https://github.com/sabrh/techGeek-app.git
-cd product-management-app
+### 1. Clone the repository
 
-### 2 Install dependencies
+git clone https://github.com/sabrh/techGeek-app.git
+cd techGeek-app
+
+### 2. Install dependencies
 npm install
 
 Configure environment variables
 
-### 3 Create a .env.local file in the root:
+### 3. Create a .env.local file in the root:
 
 NEXT_PUBLIC_API_URL=http://localhost:5000
-
-
-### Create a .env file in your backend:
 
 MONGODB_URI=your_mongodb_connection_string
 DB_NAME=your_database_name
 JWT_SECRET=your_secret_key
 PORT=5000
 
-### 4 Run the development servers
+### 4. Run the development servers
 
 npm run dev
 
