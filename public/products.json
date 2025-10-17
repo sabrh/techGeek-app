@@ -1,0 +1,162 @@
+[
+  {
+    "product_id": "1",
+    "name": "ThinkPad X1 Carbon Gen 12 Core Ultra",
+    "image": "https://i.ibb.co.com/5xR7rXtW/Lenovo-Think-Pad-X1-Carbon-Gen-12-Core-Ultra.jpg",
+    "category": "Laptops",
+    "price": 1299.99,
+    "description": "A sleek and lightweight ultrabook powered by the latest Intel i7 processor with 16GB RAM and 512GB SSD."
+  },
+  {
+    "product_id": "2",
+    "name": "Mechanical Gaming Keyboard RGB",
+    "image": "https://i.ibb.co.com/5xR7rXtW/Lenovo-Think-Pad-X1-Carbon-Gen-12-Core-Ultra.jpg",
+    "category": "Peripherals",
+    "price": 99.99,
+    "description": "Tactile mechanical keyboard with customizable RGB lighting and anti-ghosting keys."
+  },
+  {
+    "product_id": "3",
+    "name": "4K Curved Gaming Monitor",
+    "image": "https://i.ibb.co.com/5xR7rXtW/Lenovo-Think-Pad-X1-Carbon-Gen-12-Core-Ultra.jpg",
+    "category": "Monitors",
+    "price": 499.99,
+    "description": "32-inch curved 4K UHD display with 144Hz refresh rate and HDR support for an immersive gaming experience."
+  },
+  {
+    "product_id": "4",
+    "name": "Wireless Noise Cancelling Headphones",
+    "image": "https://i.ibb.co.com/5xR7rXtW/Lenovo-Think-Pad-X1-Carbon-Gen-12-Core-Ultra.jpg",
+    "category": "Audio",
+    "price": 189.99,
+    "description": "Over-ear Bluetooth headphones with active noise cancellation and 30-hour battery life."
+  },
+  {
+    "product_id": "5",
+    "name": "Smartwatch GT 3",
+    "image": "https://i.ibb.co.com/5xR7rXtW/Lenovo-Think-Pad-X1-Carbon-Gen-12-Core-Ultra.jpg",
+    "category": "Wearables",
+    "price": 249.99,
+    "description": "Advanced smartwatch with health tracking, GPS, and water resistance up to 50 meters."
+  },
+  {
+    "product_id": "6",
+    "name": "Portable Bluetooth Speaker",
+    "image": "https://i.ibb.co.com/5xR7rXtW/Lenovo-Think-Pad-X1-Carbon-Gen-12-Core-Ultra.jpg",
+    "category": "Audio",
+    "price": 69.99,
+    "description": "Compact waterproof speaker with deep bass and 12-hour playtime, ideal for outdoor use."
+  },
+  {
+    "product_id": "7",
+    "name": "Wireless Ergonomic Mouse",
+    "image": "https://i.ibb.co.com/5xR7rXtW/Lenovo-Think-Pad-X1-Carbon-Gen-12-Core-Ultra.jpg",
+    "category": "Peripherals",
+    "price": 39.99,
+    "description": "Ergonomic mouse with silent clicks, adjustable DPI, and rechargeable battery."
+  },
+  {
+    "product_id": "8",
+    "name": "Smart Home Security Camera",
+    "image": "https://i.ibb.co.com/5xR7rXtW/Lenovo-Think-Pad-X1-Carbon-Gen-12-Core-Ultra.jpg",
+    "category": "Smart Home",
+    "price": 129.99,
+    "description": "1080p Wi-Fi camera with motion detection, night vision, and cloud storage support."
+  },
+  {
+    "product_id": "9",
+    "name": "Mechanical Gaming Mouse Pad",
+    "image": "https://i.ibb.co.com/5xR7rXtW/Lenovo-Think-Pad-X1-Carbon-Gen-12-Core-Ultra.jpg",
+    "category": "Accessories",
+    "price": 24.99,
+    "description": "RGB-illuminated extended mouse pad with anti-slip rubber base and micro-textured surface."
+  },
+  {
+    "product_id": "10",
+    "name": "Smart LED Desk Lamp",
+    "image": "https://i.ibb.co.com/5xR7rXtW/Lenovo-Think-Pad-X1-Carbon-Gen-12-Core-Ultra.jpg",
+    "category": "Smart Home",
+    "price": 59.99,
+    "description": "Adjustable desk lamp with touch control, brightness settings, and USB charging port."
+  },
+  {
+    "product_id": "11",
+    "name": "Wireless Charging Pad Pro",
+    "image": "https://i.ibb.co.com/5xR7rXtW/Lenovo-Think-Pad-X1-Carbon-Gen-12-Core-Ultra.jpg",
+    "category": "Accessories",
+    "price": 29.99,
+    "description": "Fast wireless charging pad compatible with all Qi-enabled devices."
+  },
+  {
+    "product_id": "12",
+    "name": "Mini Drone 4K Camera",
+    "image": "https://i.ibb.co.com/5xR7rXtW/Lenovo-Think-Pad-X1-Carbon-Gen-12-Core-Ultra.jpg",
+    "category": "Drones",
+    "price": 299.99,
+    "description": "Compact drone with 4K camera, GPS stabilization, and 25-minute flight time."
+  },
+  {
+    "product_id": "13",
+    "name": "VR Headset Explorer",
+    "image": "https://i.ibb.co.com/5xR7rXtW/Lenovo-Think-Pad-X1-Carbon-Gen-12-Core-Ultra.jpg",
+    "category": "Virtual Reality",
+    "price": 349.99,
+    "description": "Immersive VR headset with motion tracking and high-resolution display."
+  },
+  {
+    "product_id": "14",
+    "name": "Smart Plug Wi-Fi Outlet",
+    "image": "https://i.ibb.co.com/5xR7rXtW/Lenovo-Think-Pad-X1-Carbon-Gen-12-Core-Ultra.jpg",
+    "category": "Smart Home",
+    "price": 19.99,
+    "description": "Voice-controlled Wi-Fi plug that works with Alexa and Google Assistant."
+  },
+  {
+    "product_id": "15",
+    "name": "Mechanical SSD 1TB NVMe",
+    "image": "https://i.ibb.co.com/5xR7rXtW/Lenovo-Think-Pad-X1-Carbon-Gen-12-Core-Ultra.jpg",
+    "category": "Storage",
+    "price": 119.99,
+    "description": "Ultra-fast 1TB NVMe SSD with read speeds up to 3500MB/s for gaming and productivity."
+  },
+  {
+    "product_id": "16",
+    "name": "1080p USB Webcam",
+    "image": "https://i.ibb.co.com/5xR7rXtW/Lenovo-Think-Pad-X1-Carbon-Gen-12-Core-Ultra.jpg",
+    "category": "Peripherals",
+    "price": 59.99,
+    "description": "Full HD webcam with built-in microphone and adjustable clip for monitors and laptops."
+  },
+  {
+    "product_id": "17",
+    "name": "Smart Thermostat 2.0",
+    "image": "https://i.ibb.co.com/5xR7rXtW/Lenovo-Think-Pad-X1-Carbon-Gen-12-Core-Ultra.jpg",
+    "category": "Smart Home",
+    "price": 169.99,
+    "description": "Wi-Fi thermostat that learns your schedule and adjusts temperature automatically."
+  },
+  {
+    "product_id": "18",
+    "name": "Gaming Graphics Card RTX 4080",
+    "image": "https://i.ibb.co.com/5xR7rXtW/Lenovo-Think-Pad-X1-Carbon-Gen-12-Core-Ultra.jpg",
+    "category": "Components",
+    "price": 1199.99,
+    "description": "Next-gen NVIDIA graphics card with ray tracing and 16GB GDDR6X memory."
+  },
+  {
+    "product_id": "19",
+    "name": "Wireless Earbuds AirPod Max Mini",
+    "image": "https://i.ibb.co.com/5xR7rXtW/Lenovo-Think-Pad-X1-Carbon-Gen-12-Core-Ultra.jpg",
+    "category": "Audio",
+    "price": 139.99,
+    "description": "Compact wireless earbuds with active noise cancellation and long-lasting battery."
+  },
+  {
+    "product_id": "20",
+    "name": "Smartwatch Charging Dock",
+    "image": "https://i.ibb.co.com/5xR7rXtW/Lenovo-Think-Pad-X1-Carbon-Gen-12-Core-Ultra.jpg",
+    "category": "Accessories",
+    "price": 34.99,
+    "description": "Magnetic charging dock compatible with all major smartwatch brands."
+  }
+]
