@@ -1,17 +1,29 @@
 "use client";
-
 import { useSelector } from "react-redux";
-import { useRouter } from "next/navigation";
-import { useEffect } from "react";
+import { useRouter, usePathname } from "next/navigation";
+import { useEffect, useState } from "react";
 
 export default function ProtectedRoute({ children }) {
-  const isLoggedIn = useSelector((state) => state.auth.isLoggedIn);
   const router = useRouter();
+  const pathname = usePathname();
+  const token = useSelector((state) => state.auth.token);
+  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    if (!isLoggedIn) router.push("/signin");
-  }, [isLoggedIn]);
+    const localToken = typeof window !== "undefined" ? localStorage.getItem("token") : null;
 
-  if (!isLoggedIn) return null;
-  return children;
+    // If no token and not on signin page, redirect
+    if (!localToken && pathname !== "/signin") {
+      router.replace("/signin");
+    }
+
+    // Done checking
+    setIsLoading(false);
+  }, [pathname, router, token]);
+
+  if (isLoading) {
+    return <div className="flex justify-center items-center h-screen">Loading...</div>;
+  }
+
+  return <>{children}</>;
 }

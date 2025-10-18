@@ -22,9 +22,11 @@ export default function SigninPage() {
       });
 
       const data = await res.json();
+
       if (res.ok) {
+        
         dispatch(setCredentials({ token: data.token, email }));
-        router.push("/"); // redirect after login
+        router.push("/");
       } else {
         setError(data.message || "Signin failed");
       }
@@ -35,19 +37,25 @@ export default function SigninPage() {
   };
 
   return (
-    <div className="flex justify-center items-center h-screen">
-      <form onSubmit={handleSubmit} className="p-6 border rounded-md w-80">
-        <h2 className="text-xl font-bold mb-4">Signin</h2>
+    <div className="flex justify-center items-center h-screen bg-base-200">
+      <form
+        onSubmit={handleSubmit}
+        className="p-8 bg-white shadow-lg rounded-lg w-80"
+      >
+        <h2 className="text-2xl font-bold mb-4 text-center text-primary">Sign In</h2>
         <input
           type="email"
-          placeholder="Enter your Email"
+          placeholder="Enter your email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
-          className="w-full border px-3 py-2 rounded-md mb-3"
+          className="w-full border px-3 py-2 rounded-md mb-3 focus:outline-none focus:ring focus:ring-primary"
           required
         />
-        {error && <p className="text-red-500 mb-2">{error}</p>}
-        <button type="submit" className="w-full bg-blue-500 text-white py-2 rounded-md">
+        {error && <p className="text-red-500 mb-2 text-center">{error}</p>}
+        <button
+          type="submit"
+          className="w-full bg-primary text-white py-2 rounded-md hover:bg-primary/80"
+        >
           Sign In
         </button>
       </form>

@@ -3,7 +3,7 @@ import Link from "next/link";
 import React from "react";
 import { usePathname, useRouter } from "next/navigation";
 import { useSelector, useDispatch } from "react-redux";
-import { logout } from "@/redux/slices/authSlice"; 
+import { clearCredentials } from "@/redux/slices/authSlice"; 
 
 const Navbar = () => {
   const pathname = usePathname();
@@ -19,8 +19,8 @@ const Navbar = () => {
   ];
 
   const handleLogout = () => {
-    dispatch(logout());
-    router.push("/signin");
+    dispatch(clearCredentials()); 
+    router.push("/signin"); 
   };
 
   const hideMenu = pathname === "/signin" || !token;
