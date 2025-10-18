@@ -1,10 +1,12 @@
-import Image from "next/image";
 import ProductsSection from "./_components/ProductsSection";
+import ProtectedRoute from "@/components/ProtectedRoute";
 
 export default function Home() {
   return (
     <div>
-      <ProductsSection />
+      <ProtectedRoute>
+        <ProductsSection />
+      </ProtectedRoute>
     </div>
   );
 }

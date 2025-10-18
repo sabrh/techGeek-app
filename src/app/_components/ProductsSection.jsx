@@ -17,9 +17,10 @@ export default async function ProductsSection () {
             return (
                 <div className='col-span-12 md:col-span-6 lg:col-span-4 p-4 h-full border rounded-lg' key={item._id}>
                     <figure className='w-full h-3/4 flex justify-center items-center'>
-                        <Image src={item.image} 
+                    <img src={item.image} alt={item.name} className="w-full h-full object-fill rounded-md" />
+                        {/*<Image src={item.image} 
                         className='w-full h-full object-fill'
-                        width={300} height={200} alt={item.name} />
+                        width={300} height={200} alt={item.name} />*/}
                     </figure>
                     <div className='flex justify-between items-center mt-4'>
                         <div>
@@ -27,7 +28,7 @@ export default async function ProductsSection () {
                             <p className='font-bold text-lg'>$ {item.price}</p>
                         </div>
                         <div>
-                            <Link href='/product-details'>Details</Link>
+                            <Link href={`/product-details/${item._id}`}>Details</Link>
                         </div>
                     </div>
                 </div>

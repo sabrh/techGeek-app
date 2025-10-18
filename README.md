@@ -72,8 +72,11 @@ Configure environment variables
 NEXT_PUBLIC_API_URL=http://localhost:5000
 
 MONGODB_URI=your_mongodb_connection_string
+
 DB_NAME=your_database_name
-JWT_SECRET=your_secret_key
+
+JWT_SECRET=yourSuperSecretKey123!@#
+
 PORT=5000
 
 ### 4. Run the development servers
