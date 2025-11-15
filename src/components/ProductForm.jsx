@@ -66,31 +66,31 @@ export default function ProductForm({ initialValues = null, mode = "create" }) {
       <div className="mb-4">
         <label className="block font-medium">Name</label>
         <input className="mt-1 w-full border rounded px-3 py-2" {...register("name")} />
-        {errors.name && <p className="text-sm text-red-600">{errors.name.message}</p>}
+        {errors.name && <p className="text-sm text-[#A44A3F]">{errors.name.message}</p>}
       </div>
 
       <div className="mb-4">
         <label className="block font-medium">Category</label>
         <input className="mt-1 w-full border rounded px-3 py-2" {...register("category")} />
-        {errors.category && <p className="text-sm text-red-600">{errors.category.message}</p>}
+        {errors.category && <p className="text-sm text-[#A44A3F]">{errors.category.message}</p>}
       </div>
 
       <div className="mb-4">
         <label className="block font-medium">Price (USD)</label>
         <input type="number" step="0.01" className="mt-1 w-full border rounded px-3 py-2" {...register("price", { valueAsNumber: true })} />
-        {errors.price && <p className="text-sm text-red-600">{errors.price.message}</p>}
+        {errors.price && <p className="text-sm text-[#A44A3F]">{errors.price.message}</p>}
       </div>
 
       <div className="mb-4">
         <label className="block font-medium">Image URL</label>
         <input className="mt-1 w-full border rounded px-3 py-2" {...register("image")} />
-        {errors.image && <p className="text-sm text-red-600">{errors.image.message}</p>}
+        {errors.image && <p className="text-sm text-[#A44A3F]">{errors.image.message}</p>}
       </div>
 
       <div className="mb-4">
         <label className="block font-medium">Description</label>
         <textarea className="mt-1 w-full border rounded px-3 py-2" rows={5} {...register("description")} />
-        {errors.description && <p className="text-sm text-red-600">{errors.description.message}</p>}
+        {errors.description && <p className="text-sm text-[#A44A3F]">{errors.description.message}</p>}
       </div>
 
       <div className="flex items-center gap-4">

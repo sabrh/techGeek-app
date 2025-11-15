@@ -44,7 +44,7 @@ export default function ProductsPage() {
 
   return (
     <div className="container mx-auto my-10 px-4">
-      <h3 className="mb-6 text-center font-bold text-2xl">All Products</h3>
+      <h3 className="mb-6 font-bold text-2xl">All Products</h3>
 
       <div className="flex justify-end mb-4">
         <input
@@ -77,17 +77,17 @@ export default function ProductsPage() {
               {/*<Image src={item.image} alt={item.name} width={80} height={80} className="object-contain rounded-md" />*/}
             </div>
             <div className="col-span-3 font-medium">{item.name}</div>
-            <div className="col-span-3 text-gray-600">{item.category}</div>
+            <div className="col-span-3 text-[#4E6E5D]">{item.category}</div>
             <div className="col-span-2 font-semibold">${item.price}</div>
-            <div className="col-span-2 flex justify-center gap-4 text-lg">
+            <div className="col-span-2 flex flex-col md:flex-row justify-center gap-4 text-lg">
               <Link href={`/product-details/${item._id}`}>
-                <FaEye className="text-blue-500 cursor-pointer hover:text-blue-700" />
+                <FaEye className="text-[#4E6E5D] cursor-pointer hover:text-[#4E6E5D]" />
               </Link>
               <Link href={`/products/${item._id}/edit`}>
-                <FaEdit className="text-green-500 cursor-pointer hover:text-green-700" />
+                <FaEdit className="text-[#AD8A64] cursor-pointer hover:text-[#AD8A64]" />
               </Link>
               <button onClick={() => handleDelete(item._id)}>
-                <FaTrash className="text-red-500 cursor-pointer hover:text-red-700" />
+                <FaTrash className="text-[#A44A3F] cursor-pointer hover:text-[#A44A3F]" />
               </button>
             </div>
           </div>

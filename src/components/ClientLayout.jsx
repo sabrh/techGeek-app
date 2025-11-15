@@ -10,7 +10,7 @@ export default function ClientLayout({ children }) {
     <ReduxProviderWrapper>
       <ProtectedRoute>
         <Navbar />
-        <div className="max-w-8xl">{children}</div>
+        <div className="min-h-[calc(100vh-116px)] max-w-8xl">{children}</div>
         <Footer />
       </ProtectedRoute>
     </ReduxProviderWrapper>

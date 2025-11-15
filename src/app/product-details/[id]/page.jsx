@@ -8,7 +8,7 @@ export default async function ProductDetailsPage({ params }) {
   const data = await productCollection.findOne({ _id: new ObjectId(params.id) });
 
   return (
-    <div>
+    <div className=''>
       {/*<div className="flex justify-center">
         <figure className="relative w-full max-w-5xl">
           <Image
@@ -25,7 +25,7 @@ export default async function ProductDetailsPage({ params }) {
       </div>*/}
 
       <div className="flex flex-col lg:flex-row items-center mx-auto max-w-4xl gap-8 my-10 p-5">
-        <img src={data.image} alt={data.name} className="w-20 h-20 object-contain rounded-md" />
+        <img src={data.image} alt={data.name} className="w-50 h-50 object-contain rounded-md" />
         {/*<Image
           src={data.image}
           alt={data.name}

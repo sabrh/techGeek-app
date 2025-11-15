@@ -37,24 +37,24 @@ export default function SigninPage() {
   };
 
   return (
-    <div className="flex justify-center items-center h-screen bg-base-200">
+    <div className="flex justify-center items-center bg-[#EFF1F3]">
       <form
         onSubmit={handleSubmit}
-        className="p-8 bg-white shadow-lg rounded-lg w-80"
+        className="mt-10 p-10 bg-white shadow-lg rounded-lg w-100"
       >
-        <h2 className="text-2xl font-bold mb-4 text-center text-primary">Sign In</h2>
+        <h2 className="text-2xl font-bold mb-4 text-center text-[#0D1821]">SIGN IN</h2>
         <input
           type="email"
           placeholder="Enter your email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
-          className="w-full border px-3 py-2 rounded-md mb-3 focus:outline-none focus:ring focus:ring-primary"
+          className="w-full border-[#4E6E5D] px-3 py-2 rounded-md mb-3 focus:outline-none focus:ring focus:ring-[#4E6E5D]"
           required
         />
         {error && <p className="text-red-500 mb-2 text-center">{error}</p>}
         <button
           type="submit"
-          className="w-full bg-primary text-white py-2 rounded-md hover:bg-primary/80"
+          className="w-full mt-4 bg-[#4E6E5D] text-white py-2 rounded-md hover:border-[#4E6E5D]"
         >
           Sign In
         </button>

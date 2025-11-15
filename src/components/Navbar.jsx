@@ -26,13 +26,13 @@ const Navbar = () => {
   const hideMenu = pathname === "/signin" || !token;
 
   return (
-    <div className="navbar bg-base-100 shadow-sm">
+    <div className="navbar bg-[#0D1821] shadow-sm md:px-8">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-5 w-5"
+              className="h-5 w-5 text-white"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -48,19 +48,19 @@ const Navbar = () => {
           {!hideMenu && (
             <ul
               tabIndex="-1"
-              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
+              className="menu menu-sm dropdown-content bg-white rounded-box z-1 mt-3 w-52 p-2 shadow"
             >
               {links.map((link) => (
                 <li key={link.href}>
-                  <Link href={link.href} className="text-lg">
-                    {link.name}
+                  <Link href={link.href} className="text-2xl py-2 text-[#0D1821]">
+                    {link.name} 
                   </Link>
                 </li>
               ))}
             </ul>
           )}
         </div>
-        <a href="/" className="text-2xl font-bold">
+        <a href="/" className="text-2xl font-bold text-white">
           techGeek
         </a>
       </div>
@@ -73,13 +73,13 @@ const Navbar = () => {
                 <li key={link.href}>
                   <Link
                     href={link.href}
-                    className={`px-5 ${
+                    className={`px-5 font-bold text-[#EFF1F3] ${
                       pathname === link.href
                         ? "underline underline-offset-4 font-semibold"
                         : ""
                     }`}
                   >
-                    {link.name}
+                    {link.name} 
                   </Link>
                 </li>
               ))}
@@ -87,7 +87,7 @@ const Navbar = () => {
           </div>
 
           <div className="navbar-end">
-            <button onClick={handleLogout} className="btn rounded-full">
+            <button onClick={handleLogout} className="btn rounded-full bg-[#4E6E5D] text-white border-[#4E6E5D]">
               Logout
             </button>
           </div>

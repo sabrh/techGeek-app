@@ -13,7 +13,7 @@ export default function ProductActions({ productId }) {
   return (
     <div className="flex flex-row gap-5 mt-4">
       <Link href={`/update-product/${productId}`}>
-        <FaEdit size={30} className="text-green-500 cursor-pointer hover:text-green-700" />
+        <FaEdit size={25} className="text-[#4E6E5D] cursor-pointer hover:text-[#4E6E5D]" />
       </Link>
       <DeleteProductButton id={productId} />
     </div>
